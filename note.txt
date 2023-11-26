@@ -1,0 +1,28 @@
+# http://127.0.0.1:8000/graphiql
+
+# Get
+# {
+#   tasks{
+#     id
+#     title
+#     is_completed
+#   }
+# }
+
+# Create
+# mutation {
+# 	newTask(title:"Cum enim laboriosam et illo et."){
+#     id
+#     title
+#     is_completed
+#   }
+# }
+
+# Update
+# mutation {
+#   updateTaskStatus(id: 4, status: true){
+#     id
+#     title
+#     is_completed
+#   }
+# }
