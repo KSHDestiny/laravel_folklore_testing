@@ -2,10 +2,10 @@
 
 namespace App\GraphQL\Mutation;
 
-use GraphQL;
+use App\Task;
 use GraphQL\Type\Definition\Type;
 use Folklore\GraphQL\Support\Mutation;
-use App\Task;
+use Folklore\GraphQL\Support\Facades\GraphQL;
 
 class NewTaskMutation extends Mutation
 {

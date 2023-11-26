@@ -2,10 +2,10 @@
 
 namespace App\GraphQL\Query;
 
-use GraphQL;
+use App\Task;
 use GraphQL\Type\Definition\Type;
 use Folklore\GraphQL\Support\Query;
-use App\Task;
+use Folklore\GraphQL\Support\Facades\GraphQL;
 
 class TasksQuery extends Query
 {

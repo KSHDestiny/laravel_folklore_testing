@@ -116,7 +116,7 @@ return [
     // ]
     //
     'types' => [
-
+        'Task' => App\GraphQL\Type\TaskType::class,
     ],
 
     // This callable will received every Error objects for each errors GraphQL catch.
